@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "mekoclient",
+  "version": "1.0",
+  "name": "Meko Client",
+  "description": "Simple PvP Client",
+  "entrypoints": {
+    "client": [
+      "com.meko.client.MekoClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "1.21.11",
+    "fabric": "*"
+  }
+}
